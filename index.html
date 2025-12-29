@@ -6,84 +6,56 @@
 <title>Extreme Towing and Recovery</title>
 
 <style>
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  background: #0b0b0b;
-  color: #f2f2f2;
+<style>
+body{
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  background:#0b0b0b;
+  color:#f2f2f2;
 }
-
-.card {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.card{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:22px;
 }
-
-.inner {
-  max-width: 420px;
-  width: 100%;
-  padding: 32px;
-  background:
-    linear-gradient(to bottom, rgba(0,0,0,.88), rgba(0,0,0,.96)),
-    url("data:image/svg+xml;utf8,
-    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 300'>
-      <path d='M0 200 L150 120 L300 180 L450 100 L600 160 L750 90 L900 150 L1050 110 L1200 170'
-            fill='none' stroke='%23333333' stroke-width='4'/>
-    </svg>");
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: cover;
-  border-radius: 16px;
-  box-shadow: 0 0 40px rgba(0,0,0,.75);
+.inner{
+  max-width:420px;
+  width:100%;
+  padding:32px;
+  background:linear-gradient(to bottom, rgba(0,0,0,.88), rgba(0,0,0,.96));
+  border-radius:16px;
+  box-shadow:0 0 40px rgba(0,0,0,.75);
+  position:relative;
+  overflow:hidden;
 }
-
-h1 {
-  margin: 0;
-  letter-spacing: 3px;
-  color: #b11212;
+.mtn{
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  opacity:.16;
 }
-
-h2 {
-  margin-top: 4px;
-  font-weight: 400;
-  letter-spacing: 1.5px;
-  font-size: 14px;
+h1{margin:0;letter-spacing:3px;color:#b11212;}
+h2{margin-top:4px;font-weight:400;letter-spacing:1.5px;font-size:14px;color:#d6d6d6;}
+.name{margin-top:24px;font-size:20px;}
+.info{margin-top:24px;line-height:1.7;font-size:15px;color:#f2f2f2;}
+.buttons{margin-top:28px;display:flex;justify-content:space-between;}
+.buttons a{
+  flex:1;
+  margin:0 6px;
+  padding:14px 0;
+  text-align:center;
+  text-decoration:none;
+  color:#f2f2f2;
+  border:1px solid #333;
+  border-radius:10px;
+  font-size:18px;
+  background:rgba(255,255,255,.02);
 }
-
-.name {
-  margin-top: 24px;
-  font-size: 20px;
-}
-
-.info {
-  margin-top: 24px;
-  line-height: 1.7;
-  font-size: 15px;
-}
-
-.buttons {
-  margin-top: 32px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.buttons a {
-  flex: 1;
-  margin: 0 6px;
-  padding: 14px 0;
-  text-align: center;
-  text-decoration: none;
-  color: #f2f2f2;
-  border: 1px solid #333;
-  border-radius: 10px;
-  font-size: 18px;
-}
-
-.buttons a:hover {
-  background: #b11212;
-  border-color: #b11212;
-}
+.buttons a:hover{background:#b11212;border-color:#b11212;}
+</style>
 </style>
 </head>
 
